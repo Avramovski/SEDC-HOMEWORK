@@ -9,4 +9,4 @@ function calculateDogAge(age) {
     return dogAge;
     }
 
-    alert((`Vo covecki dodini ima ${calculateDogAge(years)} godini`));
+    alert((`Vo covecki dodini ima ${calculateDogAge(years)} godini`));  
