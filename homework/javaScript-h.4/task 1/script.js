@@ -1,26 +1,26 @@
-function tellStory(storyArray) {
-    if (storyArray == !3) {
-        return "Enter everything"
-    }
+// function tellStory(storyArray) {
+//     if (storyArray == !3) {
+//         return "Enter everything"
+//     }
 
-    const [name, mood, activity] = storyArray
+//     const [name, mood, activity] = storyArray
 
 
-    const story = `This is ${name}. ${name} is a nice person. Today they are ${mood}. They are ${activity} all day. The end.`;
+//     const story = `This is ${name}. ${name} is a nice person. Today they are ${mood}. They are ${activity} all day. The end.`;
 
-    let i = 0
-    while (i < storyArray.lenght) {
-        story += storyArray[i];
-        i++;
-    }
-    return story;
-}
+//     let i = 0
+//     while (i < storyArray.lenght) {
+//         story += storyArray[i];
+//         i++;
+//     }
+//     return story;
+// }
 
-const storyArray = ["Nikola", 'Happy', 'runing'];
+// const storyArray = ["Nikola", 'Happy', 'runing'];
 
-const result = tellStory(storyArray);
+// const result = tellStory(storyArray);
 
-console.log(result);
+// console.log(result);
 
 
 
